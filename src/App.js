@@ -1,11 +1,20 @@
 
 import './App.css';
-import Header from './components/Header/Header';
+
+import Body from './components/Body/Body';
+
+import Question from './components/Question/Question';
+import Question1 from './components/Question1/Question1';
+import Question3 from './components/Question3/Question3';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+
+      <Body></Body>
+      <Question></Question>
+      <Question1></Question1>
+      <Question3></Question3>
     </div>
   );
 }
