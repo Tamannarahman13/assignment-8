@@ -11,7 +11,7 @@
 }
 
 .product {
-    height: 445px;
+    height: 500px;
     width: 285px;
     border: 2px solid rgb(189, 189, 189);
     border-radius: 8px;
@@ -21,13 +21,9 @@
 
 .btnCart {
     width: 100%;
-    background-color: rgb(176, 247, 170);
+    background-color: rgb(100, 100, 228);
     border: 0;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
-}
-
-.btnCart:hover {
-    background-color: rgb(34, 242, 83);
 }

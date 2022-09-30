@@ -1,5 +1,11 @@
-.myInfo {
+.my-info {
     text-align: center;
+}
+
+.my-info img {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
 }
 
 .myDetects {
@@ -7,11 +13,7 @@
     justify-content: center;
 }
 
-.myDetects h3 {
-    background-color: beige;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 5px;
-}
+
 
 .brake {
 
@@ -23,9 +25,10 @@
 
     margin-left: 20px;
     width: 50px;
-    height: 30px;
-    background-color: beige;
+    height: 50px;
+    background-color: white;
     border-radius: 30px;
+    border: 1px solid black;
     margin: 5px;
 
 }
