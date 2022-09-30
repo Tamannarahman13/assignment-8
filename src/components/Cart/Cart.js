@@ -14,6 +14,11 @@ const Cart = (props) => {
                 <img src="https://cdn5.vectorstock.com/i/thumb-large/45/59/profile-photo-placeholder-icon-design-in-gray-vector-37114559.jpg" alt="" />
                 <p>Tamanna Rahman</p>
                 <p>Dhaka,Bangladesh</p>
+                <div className='personal-detail'>
+                    <p>Height:5.2</p>
+                    <p>Weight: 50kg</p>
+                    <p>Age: 22 years</p>
+                </div>
             </div>
 
             <div className='brake'>

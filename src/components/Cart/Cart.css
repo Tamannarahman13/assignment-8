@@ -8,6 +8,11 @@
     border-radius: 50px;
 }
 
+.personal-detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .myDetects {
 
     justify-content: center;
