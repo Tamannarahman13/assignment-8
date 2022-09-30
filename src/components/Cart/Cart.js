@@ -3,10 +3,10 @@ import React from 'react';
 
 const Cart = (props) => {
     const { cart } = props;
-
+    console.log(cart)
     let total = 0;
     for (const product of cart) {
-        total = total + product.time;
+        total = total + parseInt(product.time);
     }
     return (
         <div className=''>
