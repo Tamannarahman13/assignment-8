@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 
 const Cart = (props) => {
     const [brake, setBrake] = useState(0)
+
     const { cart } = props;
     console.log(cart)
     let total = 0;
