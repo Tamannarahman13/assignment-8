@@ -1,12 +1,17 @@
 import './Cart.css'
-import React from 'react';
+import React, { useState } from 'react';
 
 const Cart = (props) => {
+    const [brake, setBrake] = useState(0)
     const { cart } = props;
     console.log(cart)
     let total = 0;
     for (const product of cart) {
         total = total + parseInt(product.time);
+    }
+    const brakeArr = [20, 30, 40, 50]
+    const handleBrakeTime = (brake) => {
+        setBrake(brake)
     }
     return (
         <div className=''>
@@ -23,17 +28,17 @@ const Cart = (props) => {
 
             <div className='brake'>
                 <h2>Add a Brake</h2>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                {
+                    brakeArr.map(b => <button onClick={() => handleBrakeTime(b)}>{b}s</button>)
+                }
+
 
             </div>
             <div className='activity'>
                 <h4>Selected:{cart.length}</h4>
                 <h2>Learning Details</h2>
                 <h5>Activity Time: {total} min </h5>
-                <h5>Brake Time: 0</h5>
+                <h5>Brake Time: {brake}</h5>
 
             </div>
             <button className='activity-completed'>
