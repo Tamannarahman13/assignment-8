@@ -20,6 +20,7 @@ const Body = () => {
     }, []);
 
     const handleAddToCart = (product) => {
+        // console.log(product)
         const newCart = [...cart, product];
         setCart(newCart);
     };

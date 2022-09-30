@@ -25,6 +25,7 @@ const Cart = (props) => {
 
             </div>
             <div className='activity'>
+                <h4>Selected:{cart.length}</h4>
                 <h2>Working Time</h2>
                 <h3>Activity Time: {total} min </h3>
                 <h3>Brake Time: 0</h3>
