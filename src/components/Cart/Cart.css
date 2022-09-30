@@ -11,18 +11,12 @@
 .personal-detail {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 
-.myDetects {
 
-    justify-content: center;
-}
 
-.myDetects h3 {
-    background-color: beige;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 5px;
-}
+
 
 .brake {
 
