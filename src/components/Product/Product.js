@@ -12,7 +12,7 @@ const Product = (props) => {
     return (
         <div className='product'>
             <img src={img} alt="" />
-            <div className='cartInfo'>
+            <div className='cart-info'>
                 <h2> {name}</h2>
                 <p><small>{description}</small></p>
 
