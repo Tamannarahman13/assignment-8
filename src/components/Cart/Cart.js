@@ -1,5 +1,6 @@
 import './Cart.css'
 import React, { useState } from 'react';
+import Swal from "sweetalert2";
 
 const Cart = (props) => {
     const [brake, setBrake] = useState(0)
@@ -41,7 +42,9 @@ const Cart = (props) => {
                 <h5>Brake Time: {brake}</h5>
 
             </div>
-            <button className='activity-completed'>
+            <button onClick={() => {
+                Swal.fire({ position: 'center', icon: 'success', title: 'Succrssfully done your task', showConfirmButton: false, timer: 1500 })
+            }} className='activity-completed'>
                 <p>Activity Completed</p>
             </button>
         </div>
