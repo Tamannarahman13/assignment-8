@@ -36,6 +36,9 @@ const Cart = (props) => {
                 <h5>Brake Time: 0</h5>
 
             </div>
+            <button className='activity-completed'>
+                <p>Activity Completed</p>
+            </button>
         </div>
     );
 };
