@@ -31,7 +31,7 @@ const Cart = (props) => {
             <div className='brake'>
                 <h2>Add a Brake</h2>
                 {
-                    brakeArr.map(b => <button onClick={() => handleBrakeTime(b)}>{b}s</button>)
+                    brakeArr.map(b => <button onClick={() => handleBrakeTime(b)}>{b}min</button>)
                 }
 
 
